@@ -15,4 +15,5 @@ include_directories(monitor collectors)
 add_executable(monitor 
 main.cpp 
 collectors/cpu_collector.cpp
-collectors/memory_collector.cpp)
+collectors/memory_collector.cpp
+collectors/process_collector.cpp)
